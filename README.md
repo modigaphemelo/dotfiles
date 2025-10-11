@@ -4,10 +4,10 @@ This repository contains my configuration files for my i3wm setup and for all th
 
 ## Configuration Details
 This repository includes configuration files for the following programs:
-1. i3wm
-2. i3status
+1. [x] i3wm
+2. [x] i3status
+3. [x] kitty
+4. [ ] nvim
+5. [ ] obsidian
 
-## To-do
-1. obsidian
-2. nvim
-3. kitty
+---
