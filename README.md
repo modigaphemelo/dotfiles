@@ -10,4 +10,27 @@ This repository includes configuration files for the following programs:
 4. [ ] nvim
 5. [ ] obsidian
 
+## Install.sh
+Script to install all the necessary application I use frequently.
+
+### How to use Script
+
+**Step 1. Make it Executable**
+Run:
+```sh
+chmod +x install.sh
+```
+
+This allows you to run it directly.
+
+**Step 2: Run the Script**
+**With Sudo**
+```sh
+sudo ./install.sh
+```
+- The script will:
+  - Sync the package database (-Sy).
+  - Install only needed packages (--needed skips already-installed ones).
+  - Report success or errors.
+
 ---
