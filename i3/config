@@ -1,4 +1,4 @@
-# i3 config file (v4)
+# i3 config file
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
@@ -186,10 +186,6 @@ bar {
         }
 }
 
-# Polybar
-exec_always --no-startup-id killall polybar
-exec_always --no-startup-id polybar
-
 # Wallpaper
 exec_always feh --bg-fill /home/olem/Pictures/wallpapers/samurai.jpg
 
@@ -225,6 +221,7 @@ smart_gaps on
 smart_borders on
 
 # Autostart
+exec --no-startup-id picom
 exec --no-startup-id pamac-tray
 exec --no-startup-id anki
 exec --no-startup-id obsidian
