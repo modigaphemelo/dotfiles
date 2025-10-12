@@ -20,6 +20,15 @@ sudo pacman -S --needed $PACKAGES
 if [ $? -eq 0 ]; then
     echo ""
     echo "Installation completed successfully!"
+    
+    # Update XDG user directories (run as the original user)
+    echo "Updating XDG user directories..."
+    if [ -n "$SUDO_USER" ] && [ "$SUDO_USER" != "root" ]; then
+        sudo -u "$SUDO_USER" xdg-user-dirs-update
+    else
+        xdg-user-dirs-update
+    fi
+    echo "XDG user directories updated."
 else
     echo ""
     echo "Installation encountered errors. Please check the output above."
