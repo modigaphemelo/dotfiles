@@ -7,8 +7,6 @@ This repository includes configuration files for the following programs:
 1. [x] i3wm
 2. [x] i3status
 3. [x] kitty
-4. [ ] nvim
-5. [ ] obsidian
 
 ## Install.sh
 Script to install all the necessary application I use frequently.
