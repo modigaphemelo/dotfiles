@@ -5,7 +5,7 @@
 # Run with sudo privileges or ensure you have sudo access.
 
 # List of packages to install
-PACKAGES="base-devel git unzip zip xarchiver 7zip gvfs gvfs-mtp pcmanfm feh evince autotiling kitty code lxappearance qt5ct libreoffice-still obsidian polkit-gnome xdg-user-dirs ttf-liberation x265 x264 lame ffmpegthumbnailer mpv audacious audacious-plugins flameshot"
+PACKAGES="base-devel git unzip zip xarchiver 7zip gvfs gvfs-mtp pcmanfm feh evince autotiling alacritty code lxappearance qt5ct obsidian polkit-gnome xdg-user-dirs ttf-liberation x265 x264 lame ffmpegthumbnailer mpv audacious audacious-plugins flameshot adapta-gtk-theme gnome-disk-utility zsh"
 
 echo "Starting installation of packages on Arch Linux..."
 echo "Packages to install: $PACKAGES"
