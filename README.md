@@ -6,7 +6,6 @@ This repository contains my configuration files for my i3wm setup and for all th
 This repository includes configuration files for the following programs:
 1. [x] i3wm
 2. [x] i3status
-3. [x] kitty
 
 ## Install.sh
 Script to install all the necessary application I use frequently.
@@ -50,8 +49,8 @@ sudo ./install.sh
 15. **lxappearance**: GUI for customizing GTK themes and settings. **Purpose**: Adjusts appearance of GTK-based applications.
 16. **qt5ct**: Tool for customizing Qt5 application themes. **Purpose**: Configures appearance of Qt-based applications.
 17. **materia-gtk-theme**: Modern GTK theme with Material Design. **Purpose**: Enhances desktop aesthetics for GTK applications.
-18. **libreoffice-still**: Stable version of LibreOffice suite. **Purpose**: Provides office tools for documents, spreadsheets, etc.
-19. **obsidian**: Markdown-based note-taking and knowledge management app. **Purpose**: Organizes notes with linking and plugins.
+18. **obsidian**: Markdown-based note-taking and knowledge management app. **Purpose**: Organizes notes with linking and plugins.
+19. **flameshot**: Screenshot tool with annotation features. **Purpose**: Captures and edits screenshots with ease.
 20. **polkit-gnome**: Authentication agent for PolicyKit in GNOME. **Purpose**: Handles privilege escalation for GUI applications.
 21. **xdg-user-dirs**: Manages standard user directories (e.g., Desktop, Downloads). **Purpose**: Creates and maintains user directory structure.
 22. **ttf-liberation**: Free fonts compatible with Arial, Times New Roman, etc. **Purpose**: Provides high-quality, open-source fonts.
@@ -62,7 +61,9 @@ sudo ./install.sh
 27. **mpv**: Lightweight, customizable media player. **Purpose**: Plays video and audio files with extensive format support.
 28. **audacious**: Lightweight audio player with customizable interface. **Purpose**: Plays music with minimal resource usage.
 29. **audacious-plugins**: Plugins for Audacious audio player. **Purpose**: Adds support for additional audio formats and features.
-30. **flameshot**: Screenshot tool with annotation features.
-**Purpose**: Captures and edits screenshots with ease.
+30. **gnome-disk-utility**:
+31. **adapta-gtk-theme**:
+32. **zsh**:
+
 
 ---
