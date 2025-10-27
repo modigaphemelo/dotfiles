@@ -44,7 +44,7 @@ sudo ./install.sh
 10. **feh**: Lightweight image viewer and wallpaper setter. **Purpose**: Views images and sets desktop wallpapers.
 11. **evince**: Document viewer for PDF, PostScript, and DjVu. **Purpose**: Opens and views various document formats.
 12. **autotiling**: Script for automatic tiling in window managers. **Purpose**: Dynamically arranges windows in tiling layouts.
-13. **kitty**: Fast, GPU-accelerated terminal emulator. **Purpose**: Provides a customizable terminal for command-line tasks.
+13. **alacritty**:
 14. **code**: Visual Studio Code, a source-code editor. **Purpose**: Supports coding with extensions and debugging tools.
 15. **lxappearance**: GUI for customizing GTK themes and settings. **Purpose**: Adjusts appearance of GTK-based applications.
 16. **qt5ct**: Tool for customizing Qt5 application themes. **Purpose**: Configures appearance of Qt-based applications.
