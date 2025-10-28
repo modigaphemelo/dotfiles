@@ -62,8 +62,9 @@ sudo ./install.sh
 28. **audacious**: Lightweight audio player with customizable interface. **Purpose**: Plays music with minimal resource usage.
 29. **audacious-plugins**: Plugins for Audacious audio player. **Purpose**: Adds support for additional audio formats and features.
 30. **gnome-disk-utility**:
-31. **adapta-gtk-theme**:
+31. **materia-gtk-theme**:
 32. **zsh**:
+33. **pdfslicer**:
 
 
 ---
