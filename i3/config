@@ -74,12 +74,6 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
-bindsym $mod+h split h
-
-# split in vertical orientation
-bindsym $mod+v split v
-
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
@@ -187,7 +181,7 @@ bar {
 }
 
 # Wallpaper
-exec_always feh --bg-fill /home/olem/Pictures/wallpapers/samurai.jpg
+exec_always feh --bg-fill /home/iceman/Pictures/wallpapers/samurai.jpg
 
 # Autotiling
 exec_always autotiling
@@ -196,9 +190,10 @@ exec_always autotiling
 bindsym $mod+0 exec i3lock
 bindsym $mod+F1 exec obsidian
 bindsym $mod+F2 exec code-oss
-bindsym $mod+F3 exec google-chrome
+bindsym $mod+F3 exec firefox-developer-edition
 bindsym $mod+F4 exec anki
 bindsym $mod+F5 exec pcmanfm
+bindsym $mod+v exec clipit -m
 
 #Assign to Workspace
 for_window [class="obsidian"] move to workspace $ws1
@@ -225,3 +220,4 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id anki
 exec --no-startup-id obsidian
 exec --no-startup-id pcmanfm
+exec --no-startup-id clipit id
