@@ -2,6 +2,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $term alacritty
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -37,7 +38,7 @@ bindsym $mod+m bar mode toggle
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec $term
 
 # kill focused window
 bindsym $mod+q kill
@@ -181,10 +182,13 @@ bar {
 }
 
 # Wallpaper
-exec_always feh --bg-fill /home/iceman/Pictures/wallpapers/samurai.jpg
+exec --no-startup-id ~/.config/i3/scripts/wallpaper.sh
 
 # Autotiling
 exec_always autotiling
+
+# Picom
+exec --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Keybindings
 bindsym $mod+0 exec i3lock
