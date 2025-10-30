@@ -53,7 +53,7 @@ sudo ./install.sh
 19. **flameshot**: Screenshot tool with annotation features. **Purpose**: Captures and edits screenshots with ease.
 20. **polkit-gnome**: Authentication agent for PolicyKit in GNOME. **Purpose**: Handles privilege escalation for GUI applications.
 21. **xdg-user-dirs**: Manages standard user directories (e.g., Desktop, Downloads). **Purpose**: Creates and maintains user directory structure.
-22. **ttf-liberation**: Free fonts compatible with Arial, Times New Roman, etc. **Purpose**: Provides high-quality, open-source fonts.
+22. **ttf-jetbrains-mono-nerd**
 23. **x265**: Library for encoding HEVC/H.265 video. **Purpose**: Enables high-efficiency video compression.
 24. **x264**: Library for encoding H.264/MPEG-4 AVC video. **Purpose**: Supports widely-used video compression.
 25. **lame**: MP3 audio encoder. **Purpose**: Converts audio to MP3 format.
