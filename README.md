@@ -66,6 +66,7 @@ sudo ./install.sh
 31. **materia-gtk-theme**:
 32. **zsh**:
 33. **pdfslicer**:
+34. **bitwarden**:
 
 
 ---
