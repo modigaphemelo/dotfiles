@@ -67,37 +67,26 @@ sudo ./install.sh
 
 17. **mpv**: Lightweight, customizable media player. **Purpose**: Plays video and audio files with extensive format support, serving as a primary media consumption tool.
 
-18. **audacious**: Lightweight audio player with customizable interface. **Purpose**: Plays music with minimal resource usage, providing efficient audio playback.
+18. **lxappearance**: Graphical user interface for customizing GTK themes and settings. **Purpose**: Adjusts appearance of GTK-based applications, improving visual consistency.
 
-19. **audacious-plugins**: Plugins for Audacious audio player. **Purpose**: Adds support for additional audio formats and features, extending the player's capabilities.
+19. **qt5ct**: Tool for customizing Qt5 application themes. **Purpose**: Configures appearance of Qt-based applications, ensuring unified theming across software.
 
-20. **lxappearance**: Graphical user interface for customizing GTK themes and settings. **Purpose**: Adjusts appearance of GTK-based applications, improving visual consistency.
+20. **materia-gtk-theme**: Modern GTK theme with Material Design. **Purpose**: Enhances desktop aesthetics for GTK applications, contributing to a cohesive user interface.
 
-21. **qt5ct**: Tool for customizing Qt5 application themes. **Purpose**: Configures appearance of Qt-based applications, ensuring unified theming across software.
+21. **ttf-jetbrains-mono-nerd**: JetBrains Mono font patched with Nerd Fonts glyphs. **Purpose**: Enhances coding and terminal experience with ligatures and icons, optimizing readability in development tools.
 
-22. **materia-gtk-theme**: Modern GTK theme with Material Design. **Purpose**: Enhances desktop aesthetics for GTK applications, contributing to a cohesive user interface.
+22. **gnome-disk-utility**: Disk management application from GNOME. **Purpose**: Manages disks, partitions, and creates disk images, supporting storage configuration and maintenance.
 
-23. **ttf-jetbrains-mono-nerd**: JetBrains Mono font patched with Nerd Fonts glyphs. **Purpose**: Enhances coding and terminal experience with ligatures and icons, optimizing readability in development tools.
+23. **pdfslicer**: Simple application to extract, merge, rotate, and reorder pages of PDF documents. **Purpose**: Edits PDF files by slicing and rearranging pages, facilitating document manipulation.
 
-24. **gnome-disk-utility**: Disk management application from GNOME. **Purpose**: Manages disks, partitions, and creates disk images, supporting storage configuration and maintenance.
+24. **unzip**: Extracts files from .zip archives. **Purpose**: Decompresses .zip files, enabling access to compressed content.
 
-25. **pdfslicer**: Simple application to extract, merge, rotate, and reorder pages of PDF documents. **Purpose**: Edits PDF files by slicing and rearranging pages, facilitating document manipulation.
+25. **zip**: Creates and manages .zip archives. **Purpose**: Compresses files for storage or sharing, aiding in data archiving.
 
-26. **unzip**: Extracts files from .zip archives. **Purpose**: Decompresses .zip files, enabling access to compressed content.
+26. **xarchiver**: Graphical archive manager for multiple formats. **Purpose**: Simplifies archive creation and extraction via a graphical user interface.
 
-27. **zip**: Creates and manages .zip archives. **Purpose**: Compresses files for storage or sharing, aiding in data archiving.
+27. **7zip**: High-compression file archiver for various formats. **Purpose**: Compresses and extracts files like .7z, .zip, and .rar, offering versatile archiving options.
 
-28. **xarchiver**: Graphical archive manager for multiple formats. **Purpose**: Simplifies archive creation and extraction via a graphical user interface.
-
-29. **7zip**: High-compression file archiver for various formats. **Purpose**: Compresses and extracts files like .7z, .zip, and .rar, offering versatile archiving options.
-
-30. **x265**: Library for encoding HEVC/H.265 video. **Purpose**: Enables high-efficiency video compression, supporting advanced media processing.
-
-31. **x264**: Library for encoding H.264/MPEG-4 AVC video. **Purpose**: Supports widely-used video compression, essential for compatibility in media encoding.
-
-32. **lame**: MP3 audio encoder. **Purpose**: Converts audio to MP3 format, facilitating common audio compression tasks.
-
-33. **ffmpegthumbnailer**: Generates thumbnails for video files. **Purpose**: Creates video previews for file managers, improving media file navigation.
-
+28. **ffmpegthumbnailer**: Generates thumbnails for video files. **Purpose**: Creates video previews for file managers, improving media file navigation.
 
 ---
