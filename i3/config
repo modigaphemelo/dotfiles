@@ -100,9 +100,9 @@ set $ws2 "2: Code"
 set $ws3 "3: Browser"
 set $ws4 "4: Test"
 set $ws5 "5: Files"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
+set $ws6 "6: Work"
+set $ws7 "7: Work"
+set $ws8 "8: Work"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -186,6 +186,18 @@ exec_always feh --bg-fill ~/Pictures/wallpapers/Arch.jpg
 # Autotiling
 exec_always autotiling
 
+# Notifications
+exec --no-startup-id dunst
+
+# Brightness controls
+bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+
+# Redshift
+exec --no-startup-id redshift
+
+# Autorandr - auto-detection
+exec --no-startup-id autorandr -c
 
 # Keybindings
 bindsym $mod+0 exec i3lock

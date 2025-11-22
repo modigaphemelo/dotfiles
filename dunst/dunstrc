@@ -1,0 +1,31 @@
+[global]
+    width = 300
+    height = (0, 400)    # Dynamic height, max 400px
+    offset = (10, 50)    # NEW SYNTAX: (x, y)
+    origin = top-right
+    frame_width = 1
+    frame_color = "#88c0d0"
+    separator_color = frame
+    padding = 12
+    horizontal_padding = 12
+    font = JetBrainsMono Nerd Font 9
+    format = "<b>%s</b>\n%b"
+    alignment = left
+    icon_position = left
+    max_icon_size = 48
+    corner_radius = 8
+
+[urgency_low]
+    background = "#2e3440"
+    foreground = "#d8dee9"
+    timeout = 5
+
+[urgency_normal]
+    background = "#2e3440" 
+    foreground = "#eceff4"
+    timeout = 8
+
+[urgency_critical]
+    background = "#bf616a"
+    foreground = "#eceff4"
+    timeout = 0
