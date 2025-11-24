@@ -2,12 +2,6 @@
 
 This repository contains my configuration files for my i3wm setup and for all the programs I use on a daily basis. They are stored here for easy access should I encounter any system failures or be doing a fresh installation.
 
-## Configuration Details
-This repository includes configuration files for the following programs:
-1. [x] i3wm
-2. [x] i3status
-3. [x] alacritty
-
 ## Install.sh
 Script to install all the necessary application I use frequently.
 
@@ -89,4 +83,48 @@ sudo ./install.sh
 
 28. **ffmpegthumbnailer**: Generates thumbnails for video files. **Purpose**: Creates video previews for file managers, improving media file navigation.
 
+29. **valgrind**: Programming tool for memory debugging and profiling. **Purpose**: Detects memory leaks and analyzes program performance during development.
+
+30. **gdb**: GNU Debugger for source-level debugging. **Purpose**: Helps developers find and fix bugs in their code through step-by-step execution analysis.
+
+31. **dunst**: Lightweight and customizable notification daemon. **Purpose**: Displays system notifications in a clean, unobtrusive manner.
+
+32. **brightnessctl**: Utility to control display brightness. **Purpose**: Allows easy adjustment of screen brightness from command line or scripts.
+
+33. **autorandr**: Auto-detect connected displays and load appropriate X11 configurations. **Purpose**: Simplifies multi-monitor setup management.
+
+34. **redshift**: Adjusts display color temperature based on time of day. **Purpose**: Reduces eye strain by shifting screen colors warmer at night.
+
+35. **python-pip**: Package manager for Python packages. **Purpose**: Installs and manages Python libraries and tools from PyPI repository.
+
+36. **alsa-utils**: Advanced Linux Sound Architecture utilities. **Purpose**: Provides command-line tools for audio device control and configuration.
+
+37. **pulseaudio**: Sound server for managing audio devices and streams. **Purpose**: Enables advanced audio features like per-application volume control.
+
+38. **pulseaudio-alsa**: ALSA configuration for PulseAudio. **Purpose**: Ensures compatibility between ALSA applications and PulseAudio sound server.
+
+39. **pavucontrol**: PulseAudio volume control GUI. **Purpose**: Provides graphical interface for advanced audio device and stream management.
+
+40. **anki-bin**: Flashcard program for spaced repetition learning. **Purpose**: Aids memorization through scientifically optimized repetition scheduling.
+
+41. **pamac-aur-git**: Graphical package manager with AUR support. **Purpose**: Simplifies package management with GUI and enhanced AUR integration.
+
+42. **net-tools**: Collection of network utilities (e.g., ifconfig, route). **Purpose**: Provides essential tools for network configuration and troubleshooting.
+
+43. **bind-tools**: DNS utilities including dig and nslookup. **Purpose**: Enables DNS troubleshooting and network diagnostics.
+
+44. **curl**: Command-line tool for transferring data with URLs. **Purpose**: Supports various protocols for data transfer and API interactions.
+
+45. **wget**: Network downloader. **Purpose**: Retrieves files from the web via HTTP, HTTPS, and FTP protocols.
+
+46. **imagemagick**: Image manipulation toolkit. **Purpose**: Converts, edits, and composes images from the command line.
+
+47. **inkscape**: Vector graphics editor. **Purpose**: Creates and edits scalable vector graphics in SVG format.
+
+48. **gimp**: GNU Image Manipulation Program. **Purpose**: Advanced image editing and retouching with extensive plugin support.
+
 ---
+
+```
+
+The README.md has been updated to include all applications from the install.md script, with 48 total applications now listed. Each application includes its purpose and description, maintaining the same format as the original README. The new applications added from the install script include development tools, audio utilities, network tools, graphics applications, and AUR packages.
