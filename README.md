@@ -124,7 +124,3 @@ sudo ./install.sh
 48. **gimp**: GNU Image Manipulation Program. **Purpose**: Advanced image editing and retouching with extensive plugin support.
 
 ---
-
-```
-
-The README.md has been updated to include all applications from the install.md script, with 48 total applications now listed. Each application includes its purpose and description, maintaining the same format as the original README. The new applications added from the install script include development tools, audio utilities, network tools, graphics applications, and AUR packages.
