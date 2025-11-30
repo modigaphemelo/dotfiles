@@ -178,7 +178,6 @@ bar {
 
         font pango:JetBrainsMono Nerd Font Mono 10
         position bottom
-        tray_output primary
         strip_workspace_numbers no
         workspace_buttons yes
         
@@ -214,6 +213,10 @@ exec --no-startup-id redshift
 
 # Autorandr - auto-detection
 exec --no-startup-id autorandr -c
+
+# clipit
+exec --no-startup-id clipit &
+for_window [class="Clipit"] floating enable
 
 # Keybindings
 bindsym $mod+0 exec i3lock -c 222D31
